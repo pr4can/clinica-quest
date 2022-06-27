@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Квест - медицинский центр</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/rs-header.css">
+	<link rel="stylesheet" href="css/rs-slider.css">
+	<link rel="stylesheet" href="css/rs-services.css">
+	<link rel="stylesheet" href="css/rs-about-us.css">
+	<link rel="stylesheet" href="css/rs-features.css">
+	<link rel="stylesheet" href="css/rs-reviews.css">
+	<link rel="stylesheet" href="css/rs-news.css">
+	<link rel="stylesheet" href="css/rs-footer.css">
+</head>
+<body>
+	<header>
+		<div class="rs-17">
+			<div class="header">
+				<div class="header__top">
+					<div class="header__container container">
+						<div class="header__address">СПб, м. Парнас, п. Парголово, ул. Заречная, дом 35, корп. 1</div>
+						<a href="tel:+7(812)926-83-33 " class="header__phone">+7 (812) 926-83-33</a>
+						<a href="" class="header__callback btn-orange">
+							<div class="btn-bg"></div>
+							<span>Заказать звонок</span>
+						</a>
+						<a href="" class="header__booking btn-green">
+							<div class="btn-bg"></div>
+							<span>Запись онлайн</span>
+						</a>
+					</div>
+				</div>
+				<div class="header__bottom">
+					<div class="header__container container">
+						<a href="/" class="header__logo"><img src="img/logo.png" alt=""></a>
+						<ul class="header__menu menu">
+							<li class="menu__item"><a href="/">Главная</a></li>
+							<li class="menu__item dropdown">
+								<a href="">Меню +</a>
+								<ul class="header__submenu submenu">
+									<li class="submenu__item"><a href="">Выпадающее меню</a></li>
+									<li class="submenu__item"><a href="">Выпадающее меню</a></li>
+									<li class="submenu__item"><a href="">Выпадающее меню</a></li>
+								</ul>
+							</li>
+							<li class="menu__item dropdown">
+								<a href="">Услуги +</a>
+								<ul class="header__submenu submenu">
+									<li class="submenu__item"><a href="">Выпадающее меню</a></li>
+									<li class="submenu__item"><a href="">Выпадающее меню</a></li>
+									<li class="submenu__item"><a href="">Выпадающее меню</a></li>
+								</ul>
+							</li>
+							<li class="menu__item"><a href="">Прайс-лист</a></li>
+							<li class="menu__item"><a href="">Новости</a></li>
+							<li class="menu__item"><a href="">Отзывы</a></li>
+							<li class="menu__item"><a href="">Контакты</a></li>
+						</ul>
+						<div class="header__burger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<a href="" class="header__search mask"></a>
+					</div>					
+				</div>
+				<div class="header__mobile">
+					<div class="header__container container">
+						<ul class="header__menu-mobile menu-mobile">
+							<li class="menu-mobile__item"><a href="">Главная</a></li>
+							<li class="menu-mobile__item dropdown">
+								<a href="">Меню <span>+</span></a>
+								<ul class="header__submenu-mobile submenu-mobile">
+									<li class="submenu-mobile__item"><a href="">Выпадающее меню</a></li>
+									<li class="submenu-mobile__item"><a href="">Выпадающее меню</a></li>
+									<li class="submenu-mobile__item"><a href="">Выпадающее меню</a></li>
+								</ul>
+							</li>
+							<li class="menu-mobile__item dropdown">
+								<a href="">Услуги <span>+</span></a>
+								<ul class="header__submenu-mobile submenu-mobile">
+									<li class="submenu-mobile__item"><a href="">Выпадающее меню</a></li>
+									<li class="submenu-mobile__item"><a href="">Выпадающее меню</a></li>
+									<li class="submenu-mobile__item"><a href="">Выпадающее меню</a></li>
+								</ul>
+							</li>
+							<li class="menu-mobile__item"><a href="">Прайс-лист</a></li>
+							<li class="menu-mobile__item"><a href="">Новости</a></li>
+							<li class="menu-mobile__item"><a href="">Отзывы</a></li>
+							<li class="menu-mobile__item"><a href="">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="rs-17">
+			<div class="slider">
+				<div class="slider__item -first">
+					<img src="img/slide11.png" alt="" class="slider__img -left">
+					<img src="img/slide12.png" alt="" class="slider__img -right">
+					<div class="container">
+						<div class="slider__container">
+							<h1 class="slider__title">«КВЕСТ» - современный медицинский центр для всей семьи</h1>
+							<p class="slider__desc">Широкий выбор специалистов и услуг в одном месте</p>
+							<div class="slider__btns">
+								<a href="" class="slider__more btn-orange">
+									<div class="btn-bg"></div>
+									<span>Подробнее об услугах</span>
+								</a>
+								<a href="" class="slider__callback">
+									<span>Заказать звонок</span>
+								</a>
+							</div>
+						</div>						
+					</div>
+				</div>
+				<div class="slider__item -second">
+					<img src="img/slide21.png" alt="" class="slider__img -right">
+					<div class="container">
+						<div class="slider__container">
+							<h1 class="slider__title">«КВЕСТ» - современный медицинский центр для всей семьи</h1>
+							<p class="slider__desc">Широкий выбор специалистов и услуг в одном месте</p>
+							<div class="slider__btns">
+								<a href="" class="slider__more btn-orange">
+									<div class="btn-bg"></div>
+									<span>Подробнее об услугах</span>
+								</a>
+								<a href="" class="slider__callback">
+									<span>Заказать звонок</span>
+								</a>
+							</div>
+						</div>						
+					</div>
+				</div>
+				<div class="slider__item -third">
+					<img src="img/slide31.png" alt="" class="slider__img -left">
+					<img src="img/slide32.png" alt="" class="slider__img -right">
+					<div class="container">
+						<div class="slider__container">
+							<h1 class="slider__title">«КВЕСТ» - современный медицинский центр для всей семьи</h1>
+							<p class="slider__desc">Широкий выбор специалистов и услуг в одном месте</p>
+							<div class="slider__btns">
+								<a href="" class="slider__more btn-orange">
+									<div class="btn-bg"></div>
+									<span>Подробнее об услугах</span>
+								</a>
+								<a href="" class="slider__callback">
+									<span>Заказать звонок</span>
+								</a>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rs-17">
+			<div class="services">
+				<div class="services__bg"></div>
+				<img src="img/service_pic.png" alt="" class="services__img wow animate__animated animate__fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
+				<div class="container">
+					<div class="services__container">
+						<p class="services__title p-title">Услуги</p>
+						<h2 class="services__subtitle h2-title">Направления деятельности</h2>
+						<div class="services__list list">
+							<a href="" class="list__item">
+								<span class="animate"></span>
+								<img src="img/service_icon1.svg" alt=""><span class="text">Врач на дом</span>
+							</a>
+							<a href="" class="list__item">
+								<span class="animate"></span>
+								<img src="img/service_icon2.svg" alt=""><span class="text">Вакцинация</span>
+							</a>
+							<a href="" class="list__item">
+								<span class="animate"></span>
+								<img src="img/service_icon3.svg" alt=""><span class="text">Педиатр</span>
+							</a>
+							<a href="" class="list__item">
+								<span class="animate"></span>
+								<img src="img/service_icon4.svg" alt=""><span class="text">Лор</span>
+							</a>
+							<a href="" class="list__item">
+								<span class="animate"></span>
+								<img src="img/service_icon5.svg" alt=""><span class="text">Аллерголог</span>
+							</a>
+							<a href="" class="list__item">
+								<span class="animate"></span>
+								<img src="img/service_icon6.svg" alt=""><span class="text">Аллерголог</span>
+							</a>
+							<a href="" class="list__item">
+								<span class="animate"></span>
+								<img src="img/service_icon7.svg" alt=""><span class="text">Гастроэнтеролог</span>
+							</a>
+							<a href="" class="list__item">
+								<span class="animate"></span>
+								<img src="img/service_icon8.svg" alt=""><span class="text">Анализы</span>
+							</a>
+							<a href="" class="list__item">
+								<span class="animate"></span>
+								<img src="img/service_icon9.svg" alt=""><span class="text">Справки</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rs-17 z-1">
+			<div class="about-us">
+				<div class="about-us__bg"></div>
+				<img src="img/about_pic.png" alt="" class="about-us__img wow animate__animated animate__fadeInRight" data-wow-duration="1s" data-wow-delay="0s">
+				<div class="container">
+					<div class="about-us__container">
+						<p class="about-us__title p-title">О нас</p>
+						<h2 class="about-us__subtitle h2-title">О клинике «КВЕСТ»</h2>
+						<p class="about-us__desc">ООО «КВЕСТ» – многопрофильный медицинский центр, отвечающий самым современным требованиям и стандартам. Мы являемся экспертами в области здоровья. Успешно работам по следующим направлениям: вакцинация, анализы, педиатрия, отоларингология, аллергология, пульмонология, гастроэнтерология и другие медпрофили. Оказываем высокопрофессиональные услуги для жителей Санкт-Петербурга и Ленинградской области. Наивысшая ценность для нас – здоровая и счастливая жизнь пациентов! Наш штат укомплектован высококвалифицированным медицинским персоналом с солидным практическим опытом. Оперативно готовы предоставить консультации узкоспециализированных врачей и широкий спектр услуг высочайшего качества. Каждого человека мы окружаем заботой и вниманием, ставим точные диагнозы и назначаем правильное лечение.  Почему именно «Квест»? Это жизнь, заключающаяся в решении различных задач и достижении целей. В нашем случае, главная цель - это здоровье пациента, на пути которой встречаются трудности. <br>ООО «КВЕСТ» – Ваш уверенный путь к хорошему самочувствию!</p>
+						<a href="" class="about-us__btn btn-green">
+							<div class="btn-bg"></div>
+							<span>Запись онлайн</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rs-17 z-2">
+			<div class="features">
+				<div class="container">
+					<h2 class="features__title">Преимущества</h2>
+					<div class="features__container">
+						<div class="features__item item">
+							<img src="img/icon1.svg" alt="">
+							<h3 class="item__title">Широкий спектр услуг</h3>
+							<p class="item__desc">Точная диагностика, программы лечения проведение всех видов анализов</p>
+						</div>
+						<div class="features__item item">
+							<img src="img/icon2.svg" alt="">
+							<h3 class="item__title">Гарантии качества</h3>
+							<p class="item__desc">Медицинские услуги в соответствии с международными стандартами</p>
+						</div>
+						<div class="features__item item">
+							<img src="img/icon3.svg" alt="">
+							<h3 class="item__title">Индивидуальный подход</h3>
+							<p class="item__desc">Душевное тепло и профессиональная забота о каждом обратившемся пациенте</p>
+						</div>
+						<div class="features__item item">
+							<img src="img/icon4.svg" alt="">
+							<h3 class="item__title">Верные диагнозы</h3>
+							<p class="item__desc">Высокоточная диагностика заболеваний и большой опыт в лечении</p>
+						</div>
+						<div class="features__item item">
+							<img src="img/icon5.svg" alt="">
+							<h3 class="item__title">Квалифицированный персонал</h3>
+							<p class="item__desc">Врачи разных специализаций с богатой практикой и надежной репутацией</p>
+						</div>
+						<div class="features__item item">
+							<img src="img/icon6.svg" alt="">
+							<h3 class="item__title">Комфортные условия</h3>
+							<p class="item__desc">Отсутствие очередей, прием в удобное время, индивидуальное лечение</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rs-17">
+			<div class="reviews">
+				<div class="container">
+					<div class="reviews__top">
+						<div class="reviews__left">
+							<p class="reviews__title p-title">Наши пациенты</p>
+							<h2 class="reviews__subtitle h2-title">Отзывы о нас</h2>
+						</div>
+						<div class="reviews__right">
+							<div class="reviews__arrow -prev"></div>
+							<div class="reviews__arrow -next"></div>
+						</div>
+					</div>
+					<div class="reviews__container">
+						<div class="reviews__item item">
+							<p class="item__desc">Хочу выразить огромную искреннюю благодарность Золотарёвой Екатерине Владимировне. В ней собраны лучшие качества, и как человека, и как врача. Могу смело сказать, что мне очень повезло попасть на прием к такому замечательному специалисту. Назначенное ей лечение быстро принесло необходимые результаты. К данному лор я попала с адгезивным средним отитом. Длительное время я мучилась от воспалительного хронического процесса в ухе. Лечебная, а затем и профилактическая программы позволили мне избавиться от недуга и забыть о своих мучениях.</p>
+							<div class="item__name">Пятилетова Анастасия</div>
+							<div class="item__date">Дата: 27.07.21</div>
+						</div>
+						<div class="reviews__item item">
+							<p class="item__desc">Хочу выразить огромную искреннюю благодарность Золотарёвой Екатерине Владимировне. В ней собраны лучшие качества, и как человека, и как врача. Могу смело сказать, что мне очень повезло попасть на прием к такому замечательному специалисту. Назначенное ей лечение быстро принесло необходимые результаты. К данному лор я попала с адгезивным средним отитом. Длительное время я мучилась от воспалительного хронического процесса в ухе. Лечебная, а затем и профилактическая программы позволили мне избавиться от недуга и забыть о своих мучениях.</p>
+							<div class="item__name">Пятилетова Анастасия</div>
+							<div class="item__date">Дата: 27.07.21</div>
+						</div>
+						<div class="reviews__item item">
+							<p class="item__desc">Хочу выразить огромную искреннюю благодарность Золотарёвой Екатерине Владимировне. В ней собраны лучшие качества, и как человека, и как врача. Могу смело сказать, что мне очень повезло попасть на прием к такому замечательному специалисту. Назначенное ей лечение быстро принесло необходимые результаты. К данному лор я попала с адгезивным средним отитом. Длительное время я мучилась от воспалительного хронического процесса в ухе. Лечебная, а затем и профилактическая программы позволили мне избавиться от недуга и забыть о своих мучениях.</p>
+							<div class="item__name">Пятилетова Анастасия</div>
+							<div class="item__date">Дата: 27.07.21</div>
+						</div>
+						<div class="reviews__item item">
+							<p class="item__desc">Хочу выразить огромную искреннюю благодарность Золотарёвой Екатерине Владимировне. В ней собраны лучшие качества, и как человека, и как врача. Могу смело сказать, что мне очень повезло попасть на прием к такому замечательному специалисту. Назначенное ей лечение быстро принесло необходимые результаты. К данному лор я попала с адгезивным средним отитом. Длительное время я мучилась от воспалительного хронического процесса в ухе. Лечебная, а затем и профилактическая программы позволили мне избавиться от недуга и забыть о своих мучениях.</p>
+							<div class="item__name">Пятилетова Анастасия</div>
+							<div class="item__date">Дата: 27.07.21</div>
+						</div>
+					</div>
+					<form action="" class="reviews__form form">
+						<div class="form__container">
+							<div class="form__bg">
+								<img src="img/form_pic.png" alt="">
+							</div>
+							<div class="form__main">
+								<p class="form__title p-title">Расскажите о своем опыте обращения к нам</p>
+								<h2 class="form__subtitle h2-title">Уже воспользовались <br>услугами нашей клиники?</h2>
+								<div class="form__inputs">
+									<input type="text" class="form__input" placeholder="Ваше имя">
+									<input type="text" class="form__input" placeholder="Фамилия">
+									<input type="tel" class="form__input" placeholder="Телефон">
+									<input type="email" class="form__input" placeholder="E-mail">
+									<textarea class="form__textarea" placeholder="Сообщение"></textarea>
+								</div>
+								<button class="form__btn btn-orange">
+									<div class="btn-bg"></div>
+									<span>Оставить отзыв</span>
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="rs-17">
+			<div class="news">
+				<img src="img/news_pic.png" alt="" class="news__img">
+				<div class="container">
+					<p class="news__title p-title">Новости</p>
+					<h2 class="news__subtitle h2-title">Важная информация</h2>
+					<div class="news__container">
+						<div class="news__item item">
+							<img src="img/news1.jpg" alt="" class="item__img">
+							<img src="img/news_icon.svg" alt="" class="item__icon">
+							<div class="item__date">Дата: 25.07.21</div>
+							<h3 class="item__title">Мы открыли новый медицинский центр</h3>
+							<p class="item__desc">С любовью и заботой о пациентах, мы открыли медицинский центр, где собрана команда замечательных врачей-педиатров.</p>
+							<a href="" class="item__more"><span></span>Подробнее</a>
+						</div>
+						<div class="news__item item">
+							<img src="img/news2.jpg" alt="" class="item__img">
+							<img src="img/news_icon.svg" alt="" class="item__icon">
+							<div class="item__date">Дата: 25.07.21</div>
+							<h3 class="item__title">Мы открыли новый медицинский центр</h3>
+							<p class="item__desc">С любовью и заботой о пациентах, мы открыли медицинский центр, где собрана команда замечательных врачей-педиатров.</p>
+							<a href="" class="item__more"><span></span>Подробнее</a>
+						</div>
+						<div class="news__item item">
+							<img src="img/news3.jpg" alt="" class="item__img">
+							<img src="img/news_icon.svg" alt="" class="item__icon">
+							<div class="item__date">Дата: 25.07.21</div>
+							<h3 class="item__title">Мы открыли новый медицинский центр</h3>
+							<p class="item__desc">С любовью и заботой о пациентах, мы открыли медицинский центр, где собрана команда замечательных врачей-педиатров.</p>
+							<a href="" class="item__more"><span></span>Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="rs-17">
+			<div class="footer">
+				<div class="footer__top">
+					<div class="container">
+						<div class="footer__container">
+							<div class="footer__column">
+								<h3 class="footer__title">О компании</h3>
+								<div class="footer__hr"></div>
+								<p class="footer__desc">ООО «КВЕСТ» – многопрофильный медицинский центр, отвечающий самым современным требованиям и стандартам. Мы являемся экспертами в области здоровья. ООО «КВЕСТ» – Ваш уверенный путь к хорошему самочувствию!</p>
+								<div class="footer__btns">
+									<a href="" class="footer__social -vk">
+										<span>VK</span>
+										<i class="fab fa-vk"></i>
+									</a>
+									<a href="" class="footer__social -instagram">
+										<span>Instagram</span>
+										<i class="fab fa-instagram"></i>
+									</a>
+									<a href="" class="footer__booking btn-green">
+										<div class="btn-bg"></div>
+										<span>Запись онлайн</span>
+									</a>
+								</div>
+							</div>
+							<div class="footer__column">
+								<h3 class="footer__title">Контакты</h3>
+								<div class="footer__hr"></div>
+								<a href="tel:+7(812)926-83-33" class="footer__contacts"><i class="fas fa-phone"></i> +7 (812) 926-83-33</a>
+								<a href="tel:+7(999)999-99-99" class="footer__contacts"><i class="fas fa-phone"></i> +7 (999) 999-99-99</a>
+								<a href="mailto:mcquest3@gmail.com" class="footer__contacts"><i class="fas fa-envelope"></i> mcquest3@gmail.com</a>
+								<div class="footer__contacts"><i class="fas fa-map"></i> Санкт-Петербург, м. Парнас, п. Парголово, ул. Заречная, дом 35, корп. 1</div>
+							</div>
+							<div class="footer__column">
+								<h3 class="footer__title">Услуги</h3>
+								<div class="footer__hr"></div>
+								<div class="footer__menu">
+									<a href="" class="footer__link">
+										<span>Врач на дом</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>ЛОР</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>Педиатр</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>Аллерголог</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>Пульмонолог</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>Гастроэнтеролог</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>Анализы</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>Вакцина</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>Справки</span>
+									</a>
+								</div>								
+							</div>
+							<div class="footer__column">
+								<h3 class="footer__title">Информация</h3>
+								<div class="footer__hr"></div>
+								<div class="footer__menu">
+									<a href="" class="footer__link">
+										<span>Прайс-лист</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>Новости</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>Отзывы</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>Контакты</span>
+									</a>
+								</div>	
+							</div>
+							<div class="footer__column">
+								<h3 class="footer__title">Меню</h3>
+								<div class="footer__hr"></div>
+								<div class="footer__menu">
+									<a href="" class="footer__link">
+										<span>Путеводитель личного кабинета</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>Нормативно-правовые документы</span>
+									</a>
+									<a href="" class="footer__link">
+										<span>Вакансии</span>
+									</a>
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="container">
+						<div class="footer__container">
+							<div class="footer__company">© ООО «КВЕСТ» 2021. Все права защищены.</div>
+							<a href="" class="footer__develop"><img src="img/develop.png" alt=""></a>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</footer>
+	<script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script defer src="js/script.js"></script>
+</body>
+</html>
